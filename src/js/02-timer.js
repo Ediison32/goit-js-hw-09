@@ -91,7 +91,8 @@ const options = {
         buttonstar.disabled=false;
         
       }else{
-        console.log("no entro");
+       /*  console.log("no entro"); */
+         buttonstar.disabled =true;
         Notiflix.Notify.failure('Please choose a date in the future');
         
       }
@@ -113,6 +114,7 @@ document.addEventListener("keydown", evet =>{
     hour.innerText = 0;
     minute.innerText =0;
     second.innerHTML= 0;
+    buttonstar.disabled =true;
   }
 })
 
