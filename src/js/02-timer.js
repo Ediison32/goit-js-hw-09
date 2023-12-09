@@ -1,9 +1,12 @@
+
+
+
+
 import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import Notiflix from 'notiflix';
-
 // commonjs
-const flatpickr = require("flatpickr");
+//const flatpickr = require("flatpickr");
 let timerId = null;
 
 const datetime= document.querySelector("#datetime-picker");
